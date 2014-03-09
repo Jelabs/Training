@@ -221,8 +221,8 @@ public class AirHockeyRenderer implements Renderer {
     	 glUnused.glClear(GLES20.GL_COLOR_BUFFER_BIT);
         // Draw the table.
        // glUniform4f(uColorLocation, 1.0f, 1.0f, 1.0f, 1.0f);		
-      // glDrawArrays(GLES20.GL_TRIANGLES, 0, 6);
-        glDrawArrays(GLES20.GL_TRIANGLE_FAN, 0, 6);
+       glDrawArrays(GLES20.GL_TRIANGLES, 0, 6);
+       // glDrawArrays(GLES20.GL_TRIANGLE_FAN, 0, 6);
 
         
         // Draw the center dividing line.
